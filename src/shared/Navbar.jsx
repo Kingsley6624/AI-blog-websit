@@ -15,7 +15,7 @@ const Navbar = () => {
       : "font-sans text-[#7E7E81] px-3 py-1";
   return (
     <>
-      <div className="bg-[#141414] pt-[40px] pb-[14px] flex sm:justify-center justify-between items-center gap-[10px] px-[16px] md:px-[40px] lg:px-[80px]">
+      <div className="bg-[#141414] pt-[40px] pb-[14px] flex sm:justify-center justify-between items-center gap-[10px] px-[16px] md:px-[40px] lg:px-[80px] 2xl:px-[160px]">
         <span className="text-[#98989A] text-xs font-inter font-normal">
           Subscribe to our Newsletter For Blogs and Resources
         </span>
@@ -25,7 +25,7 @@ const Navbar = () => {
       </div>
 
       <nav>
-        <div className="flex flex-col md:flex-row  bg-[#1A1A1A] py-5 gap-4 md:items-center justify-between font-inter font-normal px-[16px] md:px-[40px] lg:px-[80px] ">
+        <div className="flex flex-col md:flex-row  bg-[#1A1A1A] py-5 gap-4 md:items-center justify-between font-inter font-normal px-[16px] md:px-[40px] lg:px-[80px] 2xl:px-[160px] ">
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-2">
               <img src={logo} alt="" className="w-[35px] h-[35px]" />
