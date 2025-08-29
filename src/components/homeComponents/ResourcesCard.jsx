@@ -21,7 +21,7 @@ const ResourcesCard = ({ icon, cat, desc, user }) => {
      
       <div className="flex justify-center bg-[#1A1A1A] py-5 px-[30px] gap-[30px] rounded">
         <div>
-          <p className="text-[#98989a] text-sm 2xl:text-lg">Downloaded By</p>
+          <p className="text-[#98989a] text-sm 2xl:text-lg">Downloaded By (update)</p>
           <span className="font-semibold text-white text-lg lg:text-xl 2xl:text-2xl">{user}+ Users</span>
         </div>
         <div className="flex bg-[#141414] w-fit px-2">
