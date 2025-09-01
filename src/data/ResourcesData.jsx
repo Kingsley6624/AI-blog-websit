@@ -1,5 +1,5 @@
-import icon1 from "../assets/icons/res_Icon1.svg";
-import icon2 from "../assets/icons/res_Icon2.svg";
+import icon1 from "../assets/icons/res_icon1.svg";
+import icon2 from "../assets/icons/res_icon2.svg";
 import img1 from "../assets/images/image1.png";
 import img2 from "../assets/images/image2.png";
 
