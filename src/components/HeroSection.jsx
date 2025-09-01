@@ -1,6 +1,5 @@
 import React from "react";
-
-import LeftHeroSec from "./homeComponents/leftHeroSec";
+import LeftHeroSec from "./homeComponents/LeftHeroSec";
 import RightHeroSec from "./homeComponents/RightHeroSec";
 import BottomHeroSec from "./homeComponents/BottomHeroSec";
 

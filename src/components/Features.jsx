@@ -1,6 +1,6 @@
 import React from "react";
 import SectionHead from "../shared/SectionHead";
-import Button from "../shared/Button";
+
 import { cardItems } from "../data/FeaturesData";
 import icon1 from '../assets/icons/hero_icon3.png'
 import icon2 from '../assets/icons/hero_icon5.png'
@@ -11,7 +11,7 @@ const Features = () => {
   const insightsDatas = cardItems.slice(4, 8);
   return (
     <section className="font-inter bg-[#191919]">
-      <SectionHead className="">
+      <SectionHead>
         <div className="flex flex-col gap-[10px]">
           <span className="w-fit bg-[#333333] py-1 px-2 font-medium text-white text-sm lg:text-base 2xl:text-lg rounded">
             Unlock the Power of

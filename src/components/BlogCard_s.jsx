@@ -3,6 +3,7 @@ import { FcLike } from "react-icons/fc";
 import { FaRegComment } from "react-icons/fa6";
 import { RiTelegram2Line } from "react-icons/ri";
 import Button from "../shared/Button";
+import { GoArrowUpRight } from "react-icons/go";
 
 const BlogCard_s = ({
   img,
@@ -32,7 +33,7 @@ const BlogCard_s = ({
           </div>
         </div>
 
-        <Button text="View Blog" />
+        <Button text="View Blog" icon={<GoArrowUpRight />} />
       </div>
       <div className="flex flex-col gap-4">
         <span className="text-[#98989A] text-base lg:text-lg 2xl:text-xl font-semibold">

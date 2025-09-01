@@ -3,6 +3,7 @@ import { FcLike } from "react-icons/fc";
 import { FaRegComment } from "react-icons/fa6";
 import { RiTelegram2Line } from "react-icons/ri";
 import Button from "../shared/Button";
+import { GoArrowUpRight } from "react-icons/go";
 
 const BlogCard_l = ({
   img,
@@ -61,7 +62,7 @@ const BlogCard_l = ({
         </div>
       </div>
       <div className="self-center w-fit">
-        <Button text="View Blog" />
+        <Button text="View Blog" icon={<GoArrowUpRight />} />
       </div>
     </div>
   );

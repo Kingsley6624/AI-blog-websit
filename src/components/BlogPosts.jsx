@@ -6,6 +6,7 @@ import BlogCard_s from "./BlogCard_s";
 import BlogCard_l from "./BlogCard_l";
 import {blogData} from "../data/BlogData";
 import { useMediaQuery} from 'react-responsive'
+import { GoArrowUpRight } from "react-icons/go";
 
 function BlogPosts() {
   const isDesktop = useMediaQuery({ minWidth: 1024 });
@@ -21,7 +22,7 @@ function BlogPosts() {
             Explore FutureTech's In-Depth Blog Posts
           </h3>
         </div>
-        <Button text="View All Blogs" className="w-full" />
+        <Button text="View All Blogs" className="w-full" icon={<GoArrowUpRight />} />
       </SectionHead>
       <nav className="overflow-x-auto scroll-smooth no-scrollbar  px-4 md:px-[40px] lg:px-[80px] 2xl:px-[160px] py-10">
         <div className="flex justify-between gap-[14px] min-w-max ">

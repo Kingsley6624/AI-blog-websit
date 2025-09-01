@@ -1,12 +1,14 @@
 import React from "react";
 import SectionHead from "../../shared/SectionHead";
 import Button from "../../shared/Button";
-import ResourcesCard from "./ResourcesCard";
-import { resourcesData } from "../../data/ResourcesData";
+import ResourceCard from "./ResourceCard";
+import ResourceCard2 from "./ResourceCard2";
+import { resourcesDatas } from "../../data/ResourcesData";
+import { GoArrowUpRight } from "react-icons/go";
 
 const HomeResources = () => {
-  const ebook = resourcesData.at(0);
-  const whitepaper = resourcesData.at(1);
+  const ebook = resourcesDatas.at(0);
+  const whitepaper = resourcesDatas.at(1);
   return (
     <section>
       <SectionHead>
@@ -18,16 +20,16 @@ const HomeResources = () => {
             Unlock Valuable Knowledge with FutureTech's Resources
           </h3>
         </div>
-        <Button text="View All Resources" className="w-full" />
+        <Button text="View All Resources" className="w-full" icon={<GoArrowUpRight />} />
       </SectionHead>
-      <div>
-        <div className="flex md:flex-col px-[5.55%]">
-          <ResourcesCard {...ebook} />
-          <div></div>
+      <div className="">
+        <div className="flex flex-col lg:flex-row px-[5.55%] border-b border-[#2A2A2A]">
+          <ResourceCard {...ebook} />
+          <ResourceCard2 {...ebook} />
         </div>
-        <div className="flex md:flex-col px-[5.55%]">
-          <ResourcesCard {...whitepaper} />
-          <div></div>
+        <div className="flex flex-col lg:flex-row px-[5.55%] border-b border-[#2A2A2A]">
+          <ResourceCard {...whitepaper} />
+          <ResourceCard2 {...whitepaper} />
         </div>
       </div>
     </section>
