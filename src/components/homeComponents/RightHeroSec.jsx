@@ -1,9 +1,9 @@
 import React from 'react'
 import bgImage from "../../assets/images/AbstractDesign.png";
-import img1 from "../../assets/images/image1.png";
-import img2 from "../../assets/images/image2.png";
-import img3 from "../../assets/images/image3.png";
-import img4 from "../../assets/images/image4.png";
+import img1 from "../../assets/images/avater1.svg";
+import img2 from "../../assets/images/avater2.svg";
+import img3 from "../../assets/images/avater3.svg";
+import img4 from "../../assets/images/avater4.svg";
 
 import Button from '../../shared/Button';
 

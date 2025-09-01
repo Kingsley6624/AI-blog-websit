@@ -1,6 +1,6 @@
-import img1 from "../assets/images/image2.png";
-import img2 from "../assets/images/image3.png";
-import img3 from "../assets/images/image4.png";
+import img1 from "../assets/images/avater1.svg";
+import img2 from "../assets/images/avater2.svg";
+import img3 from "../assets/images/avater3.svg";
 export const blogData = [
   {
     id: 1,

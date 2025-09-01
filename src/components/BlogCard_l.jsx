@@ -4,9 +4,19 @@ import { FaRegComment } from "react-icons/fa6";
 import { RiTelegram2Line } from "react-icons/ri";
 import Button from "../shared/Button";
 
-const BlogCard_l = ({ img, name, cat, date, heading, content, like, comment, share }) => {
+const BlogCard_l = ({
+  img,
+  name,
+  cat,
+  date,
+  heading,
+  content,
+  like,
+  comment,
+  share,
+}) => {
   return (
-    <div className="flex justify-between px-[5.55%] border-y border-[#98989A]">
+    <div className="flex justify-between px-[5.55%] lg:py-[60px] 2xl:py-[80px] border-y border-[#98989A]">
       <div className="basis-[21.1%] flex gap-2 ">
         <div>
           <img src={img} alt="" />
@@ -50,7 +60,9 @@ const BlogCard_l = ({ img, name, cat, date, heading, content, like, comment, sha
           </div>
         </div>
       </div>
-     <div className="self-center w-fit"> <Button text="View Blog" /></div>
+      <div className="self-center w-fit">
+        <Button text="View Blog" />
+      </div>
     </div>
   );
 };
