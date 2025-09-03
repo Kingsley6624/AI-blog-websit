@@ -7,7 +7,7 @@ import Review from '../components/homeComponents/Review'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='font-inter'>
       <HeroSection />
       <Features />
       <BlogPosts />

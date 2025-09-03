@@ -5,7 +5,7 @@ import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
 import { useState } from "react";
 
-import logo from "../assets/icons/logo.png";
+import logo from "../assets/icons/logo.svg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
