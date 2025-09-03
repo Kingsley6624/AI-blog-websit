@@ -121,3 +121,21 @@ export const footerLinks = [
     ],
   },
 ];
+export const resources = [
+  {
+    title: "Whitepapers",
+    url: "/docs",
+  },
+  {
+    title: "Ebooks",
+    url: "/api",
+  },
+  {
+    title: "Reports",
+    url: "/forum",
+  },
+  {
+    title: "Research Papers",
+    url: "/tutorials",
+  },
+];
